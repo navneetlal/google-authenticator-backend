@@ -1,0 +1,28 @@
+{
+  "name": "google-authenticator-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dipti Rani <gdipti642@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon",
+    "lint": "eslint",
+    "lint:fix": "yarn lint -- --fix"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.0",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "eslint": "^8.8.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2"
+  }
+}
